@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Document</title>
+</head>
+<body background="simp.jpg">
+    <h1>My First Web Page</h1>
+    
+    
+    <p>Click the button for a surprise.</p>
+    <p id = "demo"></p>
+    <button onclick="myFunction()">Try it</button>
+    <script>
+        console.log('This is just a test')
+
+        confirm("Are you sure you want to continue");
+        function myFunction(){
+            var person = prompt("Please enter your name");
+            if (person != null) {
+         document.getElementById("demo").innerHTML = "Hello " + person + "! How are you today?"; 
+  }
+}
+     alert("Hello! I am an alert box!");
+
+     document.write('Everything is working perfectly')
+
+    </script>
+</body>
+</html>
