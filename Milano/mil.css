@@ -1,0 +1,134 @@
+body{
+    border-radius: 50px;
+    border-style:solid;
+    border: color DMC 301px;;
+    width: 970px;
+    background-color:#0E1013 ;
+    margin: auto;
+     
+}
+header{
+    color:beige;
+    background-color:#D3B565 ;  
+    align-items: center; 
+    font-size: 50pt;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+
+
+}
+
+.m2{
+    float: left;
+    width: 300px;
+   
+    padding-right: 20px;
+    padding-left: 30px;
+
+   }
+   .m3{
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding-right: 20px;
+    padding-left: 30px;
+   }
+   .m4{
+       float: left;
+    width: 400px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 30px;
+   }
+   
+ 
+   .m6{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+   }
+   .m7{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+   }
+   .m8{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+   }
+   .m9{
+    width: 250px;
+    height: 250px;;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .m10{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .m11{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   h1{
+       font-size: 35pt;
+       text-align: center;
+    color: #e5c063;
+   }
+   
+ h2{
+     font-size: 35pt;
+     text-align: center;
+     color: #e5c063;
+     
+    
+ }
+ .h{
+     padding-top: 50px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 32pt;
+     text-align: center;
+     color: #e5c063;
+ }
+h3{
+    
+ font-size: 35pt;
+    text-align: center;
+    color: #e5c063;
+}
+ p{
+     margin-left: 5px;
+     text-align: left;
+     font-size: 15pt;
+ color:#e5c063;  
+ }
+footer{
+    border:hidden;
+ border-bottom-left-radius: 50px;
+ border-bottom-right-radius: 50px;
+    font-size: 15pt;
+    color: beige;
+    background-color: #D3B565;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-display:initial;
+
+    
+}
