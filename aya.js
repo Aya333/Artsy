@@ -7,9 +7,6 @@ var image3='<img src="ArtGalleryImages/C.jpg"/>'
 var image4='<img src="ArtGalleryImages/D.jpg"/>'
 var image5='<img src="ArtGalleryImages/E.jpg"/>'
 var item='';
-var print='';
-
-
 
 
 
@@ -17,13 +14,15 @@ while(sur !='Yes' && sur!='No'){
 Authen();
 }
 
+var no=prompt("Enter a number for a repeated picture")
+var print='';
+
+
+
 function Authen(){
 var sur = prompt("Just enter a Yes or No!!!!");
 }
 
-function number (){
-var no=prompt("Enter a number for a repeated picture")
-}
 
 function images(){
 if(sur2=='A'){
@@ -41,22 +40,14 @@ if(sur2=='A'){
     else if ( sur2=='E'){
         item=image5;
     }    
-    else 
-    alert("Only enter one of the mentioned letters")
+ document.writeln(item);
 }
 images();
 
-
-function NumOfReapets(){
-      
-        for(var i=0; i<number();i++){
-                print=print + item;
-            }
-            document.writeln(print);
+for(var i=0; i<no;i++){
+    print=print + item;
 }
+document.writeln(print);
 
 
-
-
- 
 
